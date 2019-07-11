@@ -1,0 +1,12 @@
+$color:blue;
+
+
+.box{
+    font-size: 20px;
+    .inbox{
+        background: $color;
+        a{color:$color;
+
+        }
+    }
+}

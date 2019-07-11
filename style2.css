@@ -1,0 +1,12 @@
+.box {
+  font-size: 20px;
+}
+
+.box .inbox {
+  background: blue;
+}
+
+.box .inbox a {
+  color: blue;
+}
+/*# sourceMappingURL=style2.css.map */

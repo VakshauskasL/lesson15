@@ -1,0 +1,67 @@
+@import url(print.css) screen and (color);
+
+.block{
+ background: plum;   
+
+}   
+@media screen and (max-width:700px){
+   .block{background: red;
+
+}
+}
+@media (min-width:300px) and (max-width:600px){
+    .block{
+        background:blue;
+}
+
+}
+@media screen, projection, screen and (max-width:400px){
+
+}
+@media not screen and (monochrome){
+
+}
+/*@media not(screen and (monochrome)){
+}
+*/
+@media only screen and (max-width:600px){
+
+}
+
+/*рабочие устройства
+all/print/screen/speech
+
+Свойства :
+
+width/max-width, min-width-px/em/;-популярно!!!
+height/max-height,min/height-px/em;-популярно!!!
+aspect-ratio:16/9 -соотношение сторон;/max-aspect-ratio;
+orientation:portrait/landscape;-популярно!!!!
+resolution:расширение экрана-измеряется в dpi(соотношение px и em) 300dpi/max-resolution:300dpi/min-resolution:300dpi
+color/min-color:32/max-color:16-Битность цветов.
+color-index:32 bit(сколько поддерживает цветов в цветном)
+monochrome:8 bit(сколько поддерживает цветов в монохроме)
+webkit-device-pixel-ratio:2 -популярно!!!
+*/
+
+
+@media print{
+.block{
+ font-size: 30px;
+}
+
+}
+/*320-телефон
+
+768
+
+1024}
+главные разрешения
+
+1224
+
+1824
+
+*/
+
+

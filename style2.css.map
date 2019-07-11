@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,IAAI;CAOlB;;AARD,AAEI,IAFA,CAEA,MAAM,CAAA;EACF,UAAU,EANX,IAAI;CAUN;;AAPL,AAIQ,IAJJ,CAEA,MAAM,CAEF,CAAC,CAAA;EAAC,KAAK,EAPR,IAAI;CASF",
+    "sources": [
+        "style2.scss"
+    ],
+    "names": [],
+    "file": "style2.css"
+}
